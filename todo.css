@@ -1,0 +1,75 @@
+body{
+	background-image: url("23.jpg");
+	
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+li : hover {
+	cursor : pointer;
+}
+
+.class_btn {
+	display: none;
+}
+
+.spacing {
+	line-height: 33px;
+	display: flex;
+	justify-content: center;
+	width: 28%;
+	flex-wrap: wrap;
+	
+}
+
+ul li {
+	width: 130%;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	margin: 10px 10px 10px 0px;
+}
+
+
+.input{
+	width: 50%;
+	border-radius: 3px;
+	border : none;
+	line-height: 25px;
+}
+
+h1 {
+	background-color: rgba(255,25,255,0.4);
+	width: 40%;
+	border-radius: 5px;
+	color:  rgba(255,255,255,1);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: algerian;
+	border-right: 3px solid rgba(255,25,255,0.45);
+	border-bottom: 3px solid rgba(255,25,255,0.45);
+	
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
+.maindiv {
+	background-color: rgba(255,25,255,0.4);
+	width: 40%;
+	border-radius: 5px;
+	padding-top: 10px;
+
+}
+
+.img1 {
+	height: 25px;
+	width: 25px;
+	padding: 0px 2px 7px 10px;
+}
+
+.img1 : hover{
+	transform: scale(1.1);
+}
